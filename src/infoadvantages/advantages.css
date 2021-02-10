@@ -1,0 +1,192 @@
+.advantages {
+    padding: 25px 0 35px;
+    margin-bottom: 30px;
+    background: #fff;
+}
+
+.main_container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.advantages .h2 {
+    margin-bottom: 3px;
+    text-transform: uppercase;
+    color: #C0B99A;
+}
+
+.h2 {
+    font-size: 24px;
+    line-height: 1.2;
+    margin-bottom: 6px;
+    color: #817E71;
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 868px) {
+h2, .h2 {
+    font-size: 30px;
+}
+}
+
+@media only screen and (max-width: 645px) {
+    h2, .h2 {
+        font-size: 24px;
+    }
+    }
+    @media only screen and (max-width: 355px) {
+        h2, .h2 {
+            font-size: 23px;
+        }
+        }
+        
+@media only screen and (min-width: 1200px) {
+    h2, .h2 {
+        font-size: 35px;
+        line-height: 1;
+    }
+    }
+
+.advantages .main_container>p {
+        margin-top: 0px;
+        margin-bottom: 40px;
+        font-size: 12px;
+}
+
+.advantages_inner {
+    display: flex;
+    margin: 0 -12px;   
+}
+
+.advatages_col {
+    width: 33.33333%;
+    margin-bottom: 24px;
+    padding: 0 12px;
+}
+
+.advatages_tt1 {
+    font-size: 22px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    color: #817E71;
+    font-weight: 700;
+}
+
+.advatages_col p {
+    font-size: 12px;
+}
+
+.advatages_right {
+    font-size: 16px;
+    padding-bottom: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.color-green {
+    font-size: 22px;
+    display: block;
+    color: #608B26;
+}
+
+.color-orange {
+    color: rgb(255, 60, 0);
+}
+
+.main_banner-txt {
+    text-align: center;
+    margin-top: -20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .main_banner {
+        height: 328px;
+    }
+}
+
+
+@media only screen and (max-width: 990px) {
+    .advantages_inner {
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 639px) {
+    .advantages_inner {
+        flex-direction:column;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .advatages_col {
+        width: 50%;
+        flex: 20%;
+    }
+}
+@media only screen and (max-width: 639px) {
+    .advatages_col {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .advatages_ysl {
+        width: 50%;
+        flex: 20%;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+.advatages_right {
+    width: 100%;
+    text-align: center;
+}
+}
+@media only screen and (max-width: 639px) {
+    .advatages_right  {
+        width: 100%;
+        text-align: left;
+        font-size: 18px;
+        padding-left: 10px;
+    }
+    }
+    @media only screen and (max-width: 639px) {
+        .color-green  {
+            width: 100%;
+            font-size: 18px;
+        }
+        }
+
+@media only screen and (max-width: 639px) {
+            .advatages_tt1  {
+                font-size: 18px;
+            }
+            }
+@media only screen and (max-width: 639px) {
+                .main_banner-txt > h1  {
+                    font-size: 28px;
+                }
+                }
+@media only screen and (max-width: 465px) {
+                    .main_banner-txt > h1  {
+                        font-size: 25px;
+                    }
+                    }
+@media only screen and (max-width: 380px) {
+                        .main_banner-txt > h1  {
+                            font-size: 19px;
+                        }
+                        }
+@media only screen and (max-width: 639px) {
+                    .main_banner-txt  {
+                        font-size: 18px;
+                    }
+                    }
+@media only screen and (max-width: 380px) {
+                        .main_banner-txt  {
+                            font-size: 17px;
+                        }
+                        }
+        

@@ -1,0 +1,8 @@
+.centerbtn {
+    text-align: center;
+}
+
+.centerbtn input:hover{
+    background-color: rgba(252, 29, 0, 0.705);
+}
+

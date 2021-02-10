@@ -1,0 +1,205 @@
+.header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 11px 0;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    z-index: 10;
+}
+
+.main_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header_left {
+    display: flex;
+    align-items: center;
+}
+
+.header_right {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin-right: 60px;
+}
+
+.logo img {
+width: 150px;
+height: 79px;
+}
+
+.menu {
+    display: flex;
+    padding: 0px 20px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.menu li {
+    padding: 15px 20px;
+}
+
+.menu > li > a {
+    text-decoration: none;
+    color: #1E1C22;
+}
+
+.menu li:hover {
+    background-color:#F6F5F0;
+}
+
+.phone_header {
+    border-radius: 20px;
+    margin-right: 28px;
+    width: 40px;
+    height: 40px;
+}
+
+.phone_header:hover {
+    background-color: #F6F5F0;
+}
+
+.phone_head {
+display: flex;
+margin: 5px;
+}
+
+.phone {
+    margin-right: 28px;
+}
+
+.social_header {
+    border-radius: 20px;
+    margin-right: 28px;
+    width: 40px;
+    height: 40px;
+}
+
+.social_header:hover {
+    background-color: #F6F5F0;
+}
+
+.social_head {
+    display: flex;
+    margin: 5px;
+}
+
+.phone {
+    text-decoration: none;
+    color: #1E1C22;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.phone:hover {
+    color:#817e71;
+}
+
+.btnlogin {
+    padding: 17px 38px;
+    min-width: 110px;
+    text-decoration: none;
+    background-color: rgb(255, 51, 0);
+    color: #fff;
+    border-radius: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 14px;
+    border: none;
+}
+
+.personal button:hover{
+    background-color: rgba(252, 29, 0, 0.705);
+}
+
+.tel-img {
+    width: 30px;
+    height: 30px;
+}
+
+.instagramlogo-img {
+    width: 30px;
+    height: 30px;
+}
+
+@media only screen and (max-width: 1199px) {
+    .burger-menu {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .menu {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 737px) {
+    .phone {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 655px) {
+    .social_header  {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 456px) {
+    .logo img {
+        width: 140px;
+    }
+}
+
+@media only screen and (max-width: 456px) {
+    .phone_header {
+        margin-right: 10px;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    .logo img {
+        margin-right: -50px;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    .phone_header {
+        margin-right: 0px;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .header_right .btnlogin {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 789px) {
+    .header_right .btnlogin {
+        display: none;
+    }
+}
+
+/*@media only screen and (min-width: 791px) {
+    .headerposition {
+        display: none;
+    }
+}*/
+
+
+
+
+
+
