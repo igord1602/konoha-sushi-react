@@ -1,0 +1,73 @@
+
+@media only screen and (min-width: 1200px) {
+    .main__top {
+        min-height: 220px;
+        margin-bottom: 50px;
+    }
+    }
+    @media only screen and (min-width: 992px){
+    .main__top {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    }
+    
+    .main__top {
+        margin-top: 100px;
+        background: center;
+        background-image: url(./sushi.jpg);
+        background-size: cover;
+        margin-bottom: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .main__top h1 {
+        text-align: center;
+        text-transform: uppercase;
+        color: #fff;
+    }
+    
+    @media only screen and (min-width: 1200px) {
+    h1, .h1 {
+        font-size: 38px;
+    }
+    }
+    
+    h1, .h1 {
+        font-family: "Neucha";
+        line-height: 1.2;
+        margin-bottom: 10px;
+    }
+    
+    .bx-breadcrumb_wrp {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+        color: #fff;
+        text-align: center;
+        padding-bottom: 10px;
+        font-size: 14px;
+    }
+    
+    .bx-breadcrumb-item {
+        display: inline-block;
+        margin-right: 8px;
+    }
+
+    .bx-breadcrumb-item >span {
+        color: #fff;
+    }
+
+    .bx-breadcrumb-item a{
+        color: #fff;
+    }
+
+    .bx-breadcrumb-item a > span {
+        margin-right: 8px;
+        color: #fff;
+        text-decoration: underline;
+    }
